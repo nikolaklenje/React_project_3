@@ -1,5 +1,5 @@
 .Header {
-  background-color: #672280;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   font-style: Karla;
   font-weight: 700;
   color:white;
+  padding-left: 20px;
 
 }
 .LeftHeader{
@@ -22,6 +23,40 @@
 
 .Header img{
   width: 40px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.Meme{
+  padding: 8%;
+}
+.Meme button{
+  width:100%;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  height: 40px;
+  border-radius:5px;
+  border:none;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ButtonText{
+  Font:Karla;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color:white;
+  
+}
+.InputForm{
+  display: flex;
+  justify-content: space-between;
+}
+.InputForm input{
+  width: 45%;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
